@@ -1,0 +1,88 @@
+.body{    
+    margin: 0;
+    padding: 0;
+}
+
+#top{
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    margin: absolute;
+    padding: px;
+    grid-gap: 16px;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.header p{
+    margin-right: 10px;
+    color: #787878;
+    cursor: pointer;
+}
+
+.header p:hover{
+    color: black ;
+    background-color: black;
+}
+
+header .right p.user{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #595959;
+}
+
+/* Main part */
+.main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 100px; 
+}
+
+.main .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+}
+
+.main .form-group input{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid #d1d1d1;
+    outline: none;
+    width: 100%;
+    margin-left: -30%;
+}
+
+.main .form-group label img{
+    float: right;
+    margin-top: -45px;
+    margin-right: 170px;
+    cursor: pointer;
+}
+
+.main .buttons{
+    margin-top: 25px;
+}
+.main .buttons button{
+    padding: 05px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
